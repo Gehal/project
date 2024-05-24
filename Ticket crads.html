@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطاقات التذاكر</title>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            direction: rtl;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            margin: 20px;
+            width: 300px;
+            height: 450px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card .content {
+            padding: 15px;
+            text-align: right;
+        }
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        .card p {
+            margin: 0;
+            font-size: 16px;
+            color: #666;
+        }
+        .card .price {
+            margin: 20px 0;
+            font-size: 20px;
+            color: #f04;
+            font-weight: bold;
+        }
+        .card button {
+            background-color: #f04;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>بطاقات التذاكر</h1>
+
+<div class="container">
+ 
+    <div class="card">
+        <img src="https://assets.voxcinemas.com/posters/P_HO00010924.jpg" alt="فيلم كوميدي">
+        <div class="content">
+            <h2> غارفيلد</h2>
+            <p>المدة: 120 دقيقة</p>
+            <p class="price">السعر: 20 ريال</p>
+            <a href="ticket1.html">
+            <button>إحجز</button>
+
+          </a>
+        </div>
+    </div>
+    <div class="container">
+      <div class="card">
+          <img src="https://assets.voxcinemas.com/posters/P_HO00010968.jpg" alt="فيلم كوميدي">
+          <div class="content">
+              <h2>اللحظات اللذيذة</h2>
+              <p>المدة: 120 دقيقة</p>
+              <p class="price">السعر: 20 ريال</p>
+              <a href="ticket2.html">
+                <button>إحجز</button>
+    
+              </a>
+          </div>
+      </div>
+
+    <div class="card">
+        <img src="https://assets.voxcinemas.com/posters/P_HO00010920.jpg" alt="فيلم أكشن">
+        <div class="content">
+            <h2>فيوريسا: ماد ماكس ساقا </h2>
+            <p>المدة: 150 دقيقة</p>
+            <p class="price">السعر: 30 ريال</p>
+            <a href="ticket3.html">
+              <button>إحجز</button>
+  
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+      
+        <img src="https://assets.voxcinemas.com/posters/P_HO00011071.jpg" alt="فيلم أكشن">
+        <div class="content">
+            <h2>باد بويز </h2>
+            <p>المدة: 180 دقيقة</p>
+            <p class="price">السعر: 35 ريال</p>
+            <a href="ticket4.html">
+              <button>إحجز</button>
+  
+            </a>
